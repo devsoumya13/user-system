@@ -2,7 +2,8 @@
   <div class="row">
     <div class="col-md-12">
       <h1>{{title}}</h1>
-      <form #regForm="ngForm" (ngSubmit)="saveForm(regForm.value, regForm.valid)">
+      <!-- Template Driven Form -->
+      <!--<form #regForm="ngForm" (ngSubmit)="saveForm(regForm.value, regForm.valid)">
           <div class="form-group">
           <label for="name">Name</label>
           <input type="text" name="name" [(ngModel)]="model.name" #name="ngModel" required minlength="6" />
@@ -16,7 +17,7 @@
           <input type="number" name="salary" [(ngModel)]="model.salary" #salary="ngModel" />
           </div>
           <button type="submit" [disabled]="!regForm.valid" class="btn btn-info">Submit</button>  
-      </form>
+      </form>-->
     </div>
   </div>
 </div>
